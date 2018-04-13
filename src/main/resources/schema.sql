@@ -10,3 +10,9 @@ CREATE TABLE inventory(
    id int NOT NULL,
    number_available int NOT NULL
  );
+
+CREATE TABLE invoice(
+   id int NOT NULL,
+   retail_price decimal(20,2) NOT NULL,
+   number_available int NOT NULL
+);

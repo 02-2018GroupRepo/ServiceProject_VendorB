@@ -1,15 +1,16 @@
 package bootcamp.model.invoice;
-
+import java.math.BigDecimal;
 import bootcamp.model.products.Product;
 
 public class InvoiceItem {
 	
+	private int id;
 	private Product product;
 	private int count;
 	
 	public InvoiceItem() {}
 	
-	public InvoiceItem(Product product, Integer count) {
+	public InvoiceItem(Integer id ,Product product, Integer count) {
 		this.product = product;
 		this.count = count;
 	}
